@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exam">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/exam"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".exam_layout"></activity>
+        <activity android:name=".True_False" />
+        <activity android:name=".Multi_Choice" />
+        <activity android:name=".Add_Question" />
+        <activity android:name=".Add_Exam" />
+        <activity android:name=".Question_Of_SubjectActivity" />
+        <activity android:name=".Exam_ListActivity" />
+        <activity android:name=".Student_SubjectActivity" />
+        <activity android:name=".Subject_List" />
+        <activity android:name=".Professor_Subject" />
+        <activity android:name=".Professor_ProfileActivity" />
+        <activity android:name=".Student_ProfileActivity" />
+        <activity
+            android:name=".InformationActivity"
+            android:label="@string/title_activity_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SubjectActivity" />
+        <activity android:name=".Registered_SubjectActivity" />
+        <activity android:name=".Student_RegistrationActivity" />
+        <activity android:name=".Professor_RegistrationActivity" />
+        <activity android:name=".IdentificationActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

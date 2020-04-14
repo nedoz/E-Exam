@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#416297"
+
+    android:layout_height="match_parent"
+    tools:context=".Add_Question">
+<LinearLayout
+    android:layout_width="match_parent"
+      android:orientation="horizontal"
+    android:layout_gravity="center"
+
+    android:background="@drawable/img_round"
+    android:layout_height="100dp">
+
+    <Button
+        android:id="@+id/btn_choice"
+        android:layout_width="122dp"
+        android:text="multi-choice"
+         android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/view_list" />
+
+    <Button
+        android:id="@+id/btn_option"
+        android:layout_width="122dp"
+        android:text="true-false"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/view_list" />
+</LinearLayout>
+</LinearLayout>

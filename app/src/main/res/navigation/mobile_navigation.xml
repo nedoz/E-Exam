@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.exam.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.exam.ui.latest_news.LatestNewsFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_latest_news" />
+
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.exam.ui.report_problem.ReportProblemFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_report_problem" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.exam.ui.registerd_subjects.RegisteredSubjectsFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_register_subjects" />
+</navigation>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:background="#0288d1"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".IdentificationActivity">
+
+
+            <LinearLayout
+           android:layout_marginTop="200dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                  android:id="@+id/img_student"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/student4" />
+                <TextView
+                  android:id="@+id/txt_student"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"
+
+                            android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:text="student"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_professor"
+
+                android:layout_marginLeft="20dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/professor5" />
+            <TextView
+               android:id="@+id/txt_professor"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="16dp"
+
+
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:text="professor"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>

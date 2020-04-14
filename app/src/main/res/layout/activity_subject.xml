@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0288d1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SubjectActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:hint="name"
+
+        android:background="@drawable/edit_back"
+        android:layout_width="match_parent"
+         android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="8dp"
+
+
+        android:inputType="textPersonName"
+      />
+
+    <EditText
+        android:id="@+id/editText2"
+
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:padding="8dp"
+    android:hint="number of chapters"
+        android:gravity="center"
+        android:background="@drawable/edit_back"
+        android:layout_height="wrap_content"
+
+
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_margin="30dp"
+        android:padding="8dp"
+     android:hint="number of questions"
+        android:background="@drawable/edit_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+      android:gravity="center"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_margin="30dp"
+        android:padding="8dp"
+  android:hint="time of exam"
+        android:id="@+id/editText4"
+        android:gravity="center"
+        android:background="@drawable/edit_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btn_subject"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/btn_sign_up"
+        android:text=" Add Subject"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+</LinearLayout>

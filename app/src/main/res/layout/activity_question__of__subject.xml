@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#416297"
+    tools:context=".Question_Of_SubjectActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#416297"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Click on the right answer :"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                android:text="this is a question text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="A) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="B) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="C) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="D) answer text"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                android:text="this is a question text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="A) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="B) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="C) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="D) answer text"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                android:text="this is a question text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="A) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="B) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="C) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="D) answer text"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                android:text="this is a question text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="A) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="B) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="C) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="D) answer text"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="23dp"
+                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                android:text="this is a question text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="A) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="B) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="C) answer text"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:text="D) answer text"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Click on true or false"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="this is a question text"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_height="40dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="this is a question text"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_height="40dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="this is a question text"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_height="40dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+            android:text="this is a question text"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="16dp"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_height="40dp"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="40dp"
+                android:background="@drawable/img_round"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="100dp"
+            android:layout_margin="20dp"
+            android:text="Submit"
+          android:layout_gravity="center"
+            android:textSize="18dp"
+               android:textColor="#416297"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@drawable/btn_add"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

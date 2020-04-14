@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="menu_slideshow">latest_news</string>
+
+    <string name="menu_share">report_problem</string>
+    <string name="menu_send">registered_subjects</string>
+</resources>

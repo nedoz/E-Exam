@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+android:background="@drawable/background"
+    tools:context=".Student_RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_margin="16dp"
+
+        android:background="@drawable/edit_text"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:background="@drawable/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="email" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_text"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:ems="10"
+        android:layout_margin="16dp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="password" />
+
+    <EditText
+        android:id="@+id/edit_con_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="8dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_margin="16dp"
+        android:background="@drawable/edit_text"
+        android:hint="confirm password" />
+
+    <EditText
+        android:id="@+id/edit_department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:hint="department" />
+
+    <EditText
+        android:id="@+id/edit_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="@drawable/edit_text"
+        android:inputType="textPersonName"
+        android:hint="level" />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+
+        android:background="@drawable/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP" />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:padding="6dp"
+
+        android:textSize="18dp"
+        android:layout_marginTop="0dp"
+        android:text="log in if have an account"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

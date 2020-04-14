@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="exampleToast">
+        <item name="android:background">#416297</item>
+        <item name="android:textColor">#fff</item>
+
+        <item name="android:strokeColor">#416297</item>
+
+
+    </style>
+
+
+</resources>
